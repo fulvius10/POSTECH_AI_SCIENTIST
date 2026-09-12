@@ -1,0 +1,26 @@
+# Curso IA Generativa — dependências dos hands-on (aulas 01 a 06)
+#
+# IMPORTANTE: instale o torch ANTES, a partir do índice CUDA (GPU) ou do PyPI (CPU):
+#   GPU:  pip install torch --index-url https://download.pytorch.org/whl/cu126
+#   CPU:  pip install torch
+# Depois:
+#   pip install -r requirements.txt
+
+transformers>=4.48,<5
+accelerate>=1.0
+sentence-transformers>=3.3
+faiss-cpu>=1.9
+rank_bm25>=0.2.2
+pydantic>=2.9
+sentencepiece>=0.2.0
+sacremoses
+protobuf
+pillow>=10
+numpy>=2
+
+# notebooks dos hands-on
+notebook>=7
+ipykernel
+ipywidgets
+nbconvert
+nbformat

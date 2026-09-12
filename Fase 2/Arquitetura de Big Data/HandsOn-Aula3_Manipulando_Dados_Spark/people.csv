@@ -1,0 +1,1001 @@
+id,name,age,city,occupation,salary
+1,Gabriel Almeida,38,Curitiba,Data Engineer,10300
+2,Helena Teixeira,27,Salvador,Data Scientist,9100
+3,Paulo Moreira,23,Sao Paulo,Data Analyst,5600
+4,Mateus Fernandes,53,Fortaleza,Software Engineer,7300
+5,Marcelo Dias,55,Campinas,Data Architect,14800
+6,Elaine Rocha,38,Sao Paulo,BI Analyst,7000
+7,Diego Lima,38,Belo Horizonte,ML Engineer,11700
+8,Thiago Cardoso,26,Campinas,Cloud Engineer,9200
+9,Vanessa Martins,59,Porto Alegre,Analytics Engineer,7500
+10,Felipe Ribeiro,28,Campinas,Database Administrator,7500
+11,Marcelo Gomes,60,Brasilia,Data Engineer,14800
+12,Mariana Souza,25,Sao Paulo,Data Scientist,16400
+13,Natalia Vieira,39,Rio de Janeiro,Data Analyst,7400
+14,Fernanda Mendes,38,Recife,Software Engineer,15100
+15,Vinicius Costa,44,Brasilia,Data Architect,14600
+16,Rafael Souza,25,Fortaleza,BI Analyst,7100
+17,Larissa Teixeira,36,Belo Horizonte,ML Engineer,14900
+18,Aline Ferreira,56,Curitiba,Cloud Engineer,16700
+19,Sabrina Vieira,24,Curitiba,Analytics Engineer,7400
+20,Sabrina Mendes,38,Rio de Janeiro,Database Administrator,9200
+21,Monica Souza,41,Curitiba,Data Engineer,15800
+22,Henrique Mendes,50,Belo Horizonte,Data Scientist,11300
+23,Helena Fernandes,56,Salvador,Data Analyst,7800
+24,Paulo Moreira,58,Campinas,Software Engineer,11600
+25,Natalia Carvalho,53,Recife,Data Architect,13100
+26,Carlos Cardoso,30,Belo Horizonte,BI Analyst,10400
+27,Priscila Barbosa,45,Campinas,ML Engineer,16600
+28,Felipe Pereira,37,Salvador,Cloud Engineer,8100
+29,Gabriel Silva,55,Porto Alegre,Analytics Engineer,15200
+30,Thiago Cardoso,39,Campinas,Database Administrator,8500
+31,Felipe Almeida,37,Salvador,Data Engineer,17200
+32,Lucas Pereira,27,Porto Alegre,Data Scientist,18700
+33,Isabela Rodrigues,33,Belo Horizonte,Data Analyst,9200
+34,Juliana Ribeiro,54,Sao Paulo,Software Engineer,14600
+35,Sabrina Oliveira,22,Rio de Janeiro,Data Architect,23800
+36,Vinicius Gomes,36,Sao Paulo,BI Analyst,8000
+37,Monica Barbosa,26,Recife,ML Engineer,19400
+38,Daniel Vieira,55,Belo Horizonte,Cloud Engineer,9600
+39,Giovana Ribeiro,31,Porto Alegre,Analytics Engineer,13700
+40,Priscila Moreira,34,Salvador,Database Administrator,9000
+41,Rodrigo Mendes,44,Recife,Data Engineer,14100
+42,Elaine Cardoso,36,Curitiba,Data Scientist,8800
+43,Thiago Almeida,58,Salvador,Data Analyst,7400
+44,Paulo Fernandes,21,Rio de Janeiro,Software Engineer,16000
+45,Carlos Fernandes,25,Sao Paulo,Data Architect,23000
+46,Thiago Barbosa,53,Curitiba,BI Analyst,8500
+47,Henrique Dias,55,Belo Horizonte,ML Engineer,18200
+48,Monica Rocha,51,Curitiba,Cloud Engineer,18000
+49,Giovana Moreira,33,Rio de Janeiro,Analytics Engineer,8200
+50,Diego Martins,48,Campinas,Database Administrator,12400
+51,Carlos Silva,27,Sao Paulo,Data Engineer,12600
+52,Thiago Cardoso,36,Curitiba,Data Scientist,10400
+53,Larissa Nascimento,29,Campinas,Data Analyst,6800
+54,Rafael Nascimento,36,Rio de Janeiro,Software Engineer,12600
+55,Marcelo Cardoso,24,Salvador,Data Architect,22700
+56,Ana Barbosa,36,Belo Horizonte,BI Analyst,10200
+57,Henrique Oliveira,34,Campinas,ML Engineer,9700
+58,Juliana Mendes,21,Campinas,Cloud Engineer,11300
+59,Felipe Gomes,48,Salvador,Analytics Engineer,15400
+60,Henrique Carvalho,33,Porto Alegre,Database Administrator,9200
+61,Carlos Rocha,55,Sao Paulo,Data Engineer,17000
+62,Sabrina Alves,24,Fortaleza,Data Scientist,14100
+63,Isabela Pereira,31,Sao Paulo,Data Analyst,11000
+64,Eduarda Costa,25,Fortaleza,Software Engineer,7800
+65,Otavio Mendes,28,Fortaleza,Data Architect,15100
+66,Paulo Rodrigues,23,Fortaleza,BI Analyst,6000
+67,Caio Silva,58,Fortaleza,ML Engineer,15600
+68,Sabrina Ferreira,34,Brasilia,Cloud Engineer,11000
+69,Patricia Mendes,29,Porto Alegre,Analytics Engineer,12800
+70,Sabrina Vieira,25,Sao Paulo,Database Administrator,12300
+71,Ricardo Rocha,27,Rio de Janeiro,Data Engineer,14300
+72,Mateus Pereira,37,Belo Horizonte,Data Scientist,12400
+73,Daniel Fernandes,44,Porto Alegre,Data Analyst,6500
+74,Elaine Ribeiro,40,Fortaleza,Software Engineer,15300
+75,Joao Almeida,56,Porto Alegre,Data Architect,23900
+76,Fernanda Carvalho,37,Rio de Janeiro,BI Analyst,6300
+77,Marcelo Carvalho,38,Porto Alegre,ML Engineer,16700
+78,Mateus Souza,42,Curitiba,Cloud Engineer,16700
+79,Patricia Pereira,52,Porto Alegre,Analytics Engineer,7600
+80,Eduarda Santos,48,Porto Alegre,Database Administrator,7000
+81,Ana Lima,29,Porto Alegre,Data Engineer,9500
+82,Elaine Ribeiro,48,Salvador,Data Scientist,8100
+83,Gabriel Barbosa,30,Salvador,Data Analyst,4900
+84,Vinicius Rocha,56,Belo Horizonte,Software Engineer,12500
+85,Helena Alves,40,Brasilia,Data Architect,23500
+86,Camila Martins,34,Curitiba,BI Analyst,6300
+87,Vanessa Vieira,56,Campinas,ML Engineer,16900
+88,Igor Fernandes,31,Belo Horizonte,Cloud Engineer,13200
+89,Bruno Costa,42,Campinas,Analytics Engineer,15500
+90,Otavio Ferreira,31,Rio de Janeiro,Database Administrator,11300
+91,Camila Oliveira,35,Curitiba,Data Engineer,17900
+92,Felipe Martins,40,Curitiba,Data Scientist,10800
+93,Bruno Silva,33,Campinas,Data Analyst,8700
+94,Rafael Barbosa,38,Brasilia,Software Engineer,15200
+95,Isabela Mendes,55,Brasilia,Data Architect,24000
+96,Bruno Cardoso,37,Belo Horizonte,BI Analyst,8300
+97,Camila Cardoso,59,Campinas,ML Engineer,13400
+98,Sabrina Moreira,59,Salvador,Cloud Engineer,9400
+99,Aline Rocha,33,Porto Alegre,Analytics Engineer,7500
+100,Diego Almeida,54,Salvador,Database Administrator,15000
+101,Mariana Martins,48,Rio de Janeiro,BI Analyst,9000
+102,Gabriel Teixeira,40,Salvador,Data Architect,20500
+103,Caio Lima,46,Porto Alegre,Analytics Engineer,8600
+104,Mariana Moreira,45,Belo Horizonte,Database Administrator,13700
+105,Rodrigo Mendes,56,Sao Paulo,Data Architect,15600
+106,Mateus Moreira,58,Fortaleza,BI Analyst,10900
+107,Elaine Nascimento,34,Salvador,Cloud Engineer,17400
+108,Juliana Silva,26,Porto Alegre,Analytics Engineer,15400
+109,Ricardo Lima,26,Curitiba,Data Architect,14800
+110,Mariana Carvalho,22,Sao Paulo,Software Engineer,13000
+111,Ricardo Vieira,25,Recife,ML Engineer,17000
+112,Monica Dias,45,Recife,ML Engineer,12100
+113,Igor Santos,21,Rio de Janeiro,ML Engineer,11800
+114,Lucas Souza,54,Recife,Data Engineer,14600
+115,Otavio Cardoso,50,Belo Horizonte,Cloud Engineer,16500
+116,Joao Ribeiro,59,Brasilia,Cloud Engineer,15800
+117,Isabela Moreira,56,Recife,Data Analyst,10500
+118,Elaine Ferreira,36,Porto Alegre,Analytics Engineer,13200
+119,Otavio Ferreira,49,Rio de Janeiro,Data Architect,15000
+120,Rafael Lima,41,Salvador,Data Scientist,9700
+121,Igor Fernandes,45,Belo Horizonte,Software Engineer,7800
+122,Caio Moreira,42,Salvador,Cloud Engineer,13300
+123,Carlos Dias,47,Campinas,Database Administrator,6700
+124,Monica Mendes,51,Sao Paulo,BI Analyst,8800
+125,Aline Moreira,55,Salvador,Database Administrator,9300
+126,Henrique Fernandes,38,Campinas,Cloud Engineer,8300
+127,Aline Lima,46,Belo Horizonte,Cloud Engineer,9600
+128,Ricardo Ribeiro,22,Campinas,Database Administrator,13700
+129,Bruno Barbosa,48,Belo Horizonte,Cloud Engineer,10300
+130,Carlos Ferreira,45,Brasilia,Software Engineer,12800
+131,Sabrina Lima,45,Porto Alegre,ML Engineer,12200
+132,Eduarda Oliveira,22,Salvador,Data Engineer,11900
+133,Natalia Santos,25,Sao Paulo,Data Engineer,10600
+134,Mariana Almeida,60,Belo Horizonte,Software Engineer,8600
+135,Giovana Silva,28,Fortaleza,Software Engineer,12900
+136,Patricia Vieira,44,Belo Horizonte,Database Administrator,14200
+137,Gabriel Vieira,31,Porto Alegre,Data Scientist,15400
+138,Bruno Gomes,57,Campinas,ML Engineer,18100
+139,Mariana Barbosa,58,Curitiba,Data Scientist,16900
+140,Rodrigo Silva,59,Rio de Janeiro,Database Administrator,7000
+141,Vanessa Ribeiro,48,Brasilia,Data Scientist,14400
+142,Thiago Almeida,47,Recife,Data Scientist,13500
+143,Vinicius Santos,50,Belo Horizonte,ML Engineer,11200
+144,Joao Santos,38,Fortaleza,Analytics Engineer,13100
+145,Felipe Moreira,58,Porto Alegre,BI Analyst,8100
+146,Eduarda Ferreira,49,Curitiba,Cloud Engineer,15200
+147,Ricardo Silva,45,Brasilia,Data Engineer,13800
+148,Sabrina Costa,52,Curitiba,BI Analyst,8300
+149,Thiago Ferreira,59,Porto Alegre,Analytics Engineer,7100
+150,Joao Dias,26,Curitiba,ML Engineer,15200
+151,Marcelo Vieira,36,Recife,Cloud Engineer,13700
+152,Bruno Barbosa,39,Curitiba,ML Engineer,17800
+153,Otavio Gomes,58,Brasilia,Cloud Engineer,15000
+154,Joao Martins,48,Salvador,BI Analyst,9500
+155,Felipe Ferreira,40,Porto Alegre,Software Engineer,8500
+156,Mariana Lima,28,Salvador,Data Analyst,6900
+157,Mateus Teixeira,51,Porto Alegre,Database Administrator,13200
+158,Priscila Gomes,27,Curitiba,Data Architect,14900
+159,Vinicius Costa,40,Sao Paulo,Analytics Engineer,8600
+160,Rafael Alves,24,Salvador,Data Architect,20900
+161,Helena Santos,52,Rio de Janeiro,Data Engineer,14800
+162,Renata Oliveira,51,Recife,BI Analyst,7300
+163,Carlos Ferreira,51,Rio de Janeiro,Data Scientist,13100
+164,Henrique Barbosa,57,Sao Paulo,Data Analyst,6400
+165,Monica Gomes,26,Curitiba,Data Scientist,15100
+166,Caio Rodrigues,59,Fortaleza,Software Engineer,16900
+167,Joao Mendes,49,Recife,Data Architect,23000
+168,Paulo Moreira,40,Fortaleza,Database Administrator,7200
+169,Ricardo Teixeira,27,Curitiba,Software Engineer,10300
+170,Eduarda Costa,36,Belo Horizonte,Analytics Engineer,7900
+171,Juliana Almeida,47,Recife,Database Administrator,12500
+172,Renata Alves,35,Porto Alegre,Data Architect,20900
+173,Felipe Barbosa,35,Porto Alegre,Database Administrator,14900
+174,Mariana Moreira,28,Salvador,Software Engineer,15200
+175,Igor Ferreira,30,Rio de Janeiro,Data Engineer,9600
+176,Rodrigo Rodrigues,57,Porto Alegre,Cloud Engineer,9500
+177,Felipe Souza,40,Campinas,Data Architect,18400
+178,Larissa Oliveira,49,Rio de Janeiro,Database Administrator,7000
+179,Diego Teixeira,41,Fortaleza,Data Architect,12300
+180,Eduarda Fernandes,57,Fortaleza,Data Engineer,17200
+181,Rafael Rocha,23,Belo Horizonte,Cloud Engineer,14600
+182,Elaine Ferreira,32,Fortaleza,ML Engineer,17100
+183,Henrique Barbosa,51,Brasilia,ML Engineer,13200
+184,Sabrina Silva,27,Belo Horizonte,BI Analyst,10200
+185,Henrique Gomes,46,Salvador,Data Engineer,13300
+186,Eduarda Lima,37,Brasilia,Data Scientist,17800
+187,Beatriz Pereira,21,Salvador,Cloud Engineer,13200
+188,Carlos Dias,54,Brasilia,Database Administrator,12800
+189,Elaine Vieira,24,Curitiba,Data Architect,19000
+190,Helena Gomes,49,Recife,Data Scientist,8300
+191,Priscila Fernandes,31,Porto Alegre,Analytics Engineer,7100
+192,Marcelo Moreira,26,Curitiba,Data Scientist,13900
+193,Gabriel Santos,30,Recife,Data Architect,18500
+194,Rafael Moreira,51,Recife,Software Engineer,12800
+195,Marcelo Carvalho,45,Curitiba,Database Administrator,13000
+196,Helena Barbosa,38,Campinas,BI Analyst,11400
+197,Rafael Almeida,39,Porto Alegre,Database Administrator,13900
+198,Henrique Carvalho,49,Salvador,Cloud Engineer,12400
+199,Thiago Ribeiro,55,Campinas,Cloud Engineer,12100
+200,Mariana Souza,36,Fortaleza,ML Engineer,11900
+201,Caio Alves,41,Recife,ML Engineer,13900
+202,Igor Oliveira,23,Belo Horizonte,Analytics Engineer,14500
+203,Thiago Cardoso,49,Rio de Janeiro,Analytics Engineer,12800
+204,Ana Teixeira,30,Campinas,Data Analyst,5400
+205,Giovana Ferreira,42,Fortaleza,ML Engineer,17300
+206,Eduarda Lima,55,Campinas,BI Analyst,11200
+207,Larissa Alves,60,Rio de Janeiro,Software Engineer,15000
+208,Renata Fernandes,26,Campinas,Data Scientist,17700
+209,Fernanda Nascimento,31,Porto Alegre,Data Engineer,8000
+210,Sabrina Alves,39,Brasilia,BI Analyst,10500
+211,Igor Fernandes,54,Campinas,Database Administrator,8800
+212,Juliana Costa,26,Fortaleza,ML Engineer,16900
+213,Otavio Oliveira,58,Belo Horizonte,Software Engineer,12900
+214,Patricia Nascimento,37,Sao Paulo,Cloud Engineer,11600
+215,Larissa Costa,25,Recife,BI Analyst,8800
+216,Diego Souza,37,Recife,Data Architect,14500
+217,Aline Oliveira,27,Curitiba,ML Engineer,16300
+218,Vanessa Rocha,39,Porto Alegre,Data Engineer,15900
+219,Beatriz Ferreira,21,Fortaleza,Data Engineer,15200
+220,Henrique Gomes,35,Fortaleza,BI Analyst,7800
+221,Mariana Rodrigues,37,Belo Horizonte,Data Scientist,16000
+222,Camila Gomes,49,Sao Paulo,Database Administrator,11100
+223,Helena Barbosa,39,Brasilia,ML Engineer,11200
+224,Mariana Carvalho,55,Brasilia,Analytics Engineer,13400
+225,Rafael Costa,37,Recife,Data Architect,21500
+226,Thiago Cardoso,50,Rio de Janeiro,Data Analyst,7300
+227,Beatriz Ribeiro,44,Rio de Janeiro,ML Engineer,9100
+228,Patricia Ribeiro,28,Recife,BI Analyst,8300
+229,Paulo Mendes,44,Rio de Janeiro,Software Engineer,13000
+230,Bruno Rodrigues,56,Brasilia,Database Administrator,9300
+231,Daniel Santos,50,Porto Alegre,ML Engineer,10400
+232,Helena Alves,23,Porto Alegre,Cloud Engineer,9400
+233,Fernanda Fernandes,55,Belo Horizonte,ML Engineer,14800
+234,Vinicius Silva,55,Campinas,Database Administrator,8400
+235,Caio Santos,27,Recife,Database Administrator,11700
+236,Rafael Alves,44,Curitiba,Cloud Engineer,13600
+237,Otavio Martins,27,Brasilia,Analytics Engineer,15200
+238,Vanessa Alves,46,Porto Alegre,Software Engineer,8500
+239,Felipe Barbosa,34,Fortaleza,Data Engineer,8100
+240,Thiago Fernandes,29,Fortaleza,Software Engineer,7800
+241,Marcelo Dias,58,Curitiba,Software Engineer,11200
+242,Igor Rodrigues,21,Porto Alegre,Data Analyst,6100
+243,Larissa Ferreira,32,Rio de Janeiro,Data Engineer,9100
+244,Ana Martins,36,Fortaleza,BI Analyst,5200
+245,Lucas Ferreira,24,Belo Horizonte,ML Engineer,15700
+246,Gabriel Teixeira,25,Recife,Cloud Engineer,17900
+247,Vinicius Pereira,58,Rio de Janeiro,Cloud Engineer,14400
+248,Natalia Rodrigues,23,Salvador,Data Architect,17800
+249,Bruno Alves,51,Campinas,ML Engineer,17700
+250,Fernanda Oliveira,49,Rio de Janeiro,Data Scientist,12100
+251,Priscila Carvalho,25,Belo Horizonte,Data Architect,19900
+252,Paulo Ribeiro,41,Campinas,Database Administrator,13200
+253,Renata Nascimento,53,Fortaleza,ML Engineer,10200
+254,Gabriel Santos,56,Curitiba,ML Engineer,14700
+255,Natalia Moreira,42,Recife,ML Engineer,14300
+256,Fernanda Lima,48,Brasilia,Data Architect,16700
+257,Igor Silva,51,Rio de Janeiro,Data Scientist,18600
+258,Eduarda Barbosa,48,Rio de Janeiro,BI Analyst,6600
+259,Marcelo Alves,58,Salvador,Analytics Engineer,11200
+260,Gabriel Moreira,43,Campinas,Data Engineer,11100
+261,Priscila Gomes,43,Rio de Janeiro,Database Administrator,12900
+262,Mateus Carvalho,51,Curitiba,Data Scientist,12400
+263,Marcelo Martins,28,Porto Alegre,Database Administrator,9300
+264,Diego Ribeiro,60,Fortaleza,Analytics Engineer,7300
+265,Priscila Silva,38,Sao Paulo,Data Analyst,7900
+266,Rodrigo Lima,43,Sao Paulo,Data Analyst,6300
+267,Monica Silva,46,Rio de Janeiro,Data Analyst,4800
+268,Eduarda Teixeira,54,Curitiba,ML Engineer,14300
+269,Felipe Lima,31,Brasilia,Data Architect,21200
+270,Sabrina Vieira,57,Fortaleza,Data Scientist,8600
+271,Igor Costa,60,Sao Paulo,Data Scientist,11400
+272,Elaine Silva,48,Recife,Database Administrator,12100
+273,Caio Ferreira,34,Salvador,Data Scientist,12400
+274,Diego Cardoso,39,Fortaleza,Cloud Engineer,14700
+275,Rodrigo Alves,35,Campinas,Database Administrator,7200
+276,Ana Dias,40,Curitiba,Data Analyst,7700
+277,Renata Lima,28,Sao Paulo,Cloud Engineer,17500
+278,Diego Costa,29,Campinas,Analytics Engineer,16000
+279,Natalia Pereira,56,Brasilia,Data Scientist,13000
+280,Camila Moreira,22,Recife,Data Scientist,19000
+281,Sabrina Rocha,48,Fortaleza,ML Engineer,18000
+282,Caio Gomes,28,Campinas,Data Engineer,11600
+283,Juliana Rodrigues,50,Brasilia,Data Scientist,13500
+284,Fernanda Fernandes,48,Fortaleza,ML Engineer,15700
+285,Eduarda Mendes,40,Brasilia,Software Engineer,11200
+286,Juliana Barbosa,53,Rio de Janeiro,Analytics Engineer,13500
+287,Mariana Vieira,43,Brasilia,Data Analyst,7500
+288,Fernanda Carvalho,37,Curitiba,Data Analyst,6400
+289,Daniel Costa,52,Recife,Database Administrator,13900
+290,Elaine Silva,57,Fortaleza,BI Analyst,9000
+291,Igor Nascimento,25,Recife,Cloud Engineer,16000
+292,Rodrigo Ferreira,58,Sao Paulo,BI Analyst,11400
+293,Daniel Gomes,50,Recife,Data Engineer,8200
+294,Vinicius Gomes,25,Rio de Janeiro,Database Administrator,14100
+295,Isabela Mendes,50,Fortaleza,Analytics Engineer,7500
+296,Elaine Rocha,33,Brasilia,Database Administrator,12500
+297,Isabela Carvalho,24,Recife,Data Scientist,18300
+298,Thiago Souza,26,Salvador,Data Analyst,5000
+299,Otavio Souza,49,Recife,Analytics Engineer,13600
+300,Ricardo Costa,44,Brasilia,Data Architect,16900
+301,Caio Vieira,42,Fortaleza,Data Engineer,17600
+302,Thiago Barbosa,42,Rio de Janeiro,Analytics Engineer,15600
+303,Aline Gomes,37,Fortaleza,Data Analyst,8700
+304,Eduarda Rocha,30,Brasilia,Data Architect,20300
+305,Beatriz Carvalho,59,Rio de Janeiro,Data Architect,19100
+306,Aline Santos,42,Belo Horizonte,Analytics Engineer,8100
+307,Diego Pereira,44,Sao Paulo,BI Analyst,8900
+308,Lucas Dias,42,Recife,Software Engineer,9800
+309,Helena Carvalho,25,Porto Alegre,Data Scientist,14400
+310,Larissa Teixeira,54,Sao Paulo,BI Analyst,6600
+311,Priscila Mendes,30,Belo Horizonte,Data Analyst,6600
+312,Elaine Alves,47,Brasilia,Software Engineer,12600
+313,Ricardo Gomes,49,Curitiba,Analytics Engineer,10000
+314,Rodrigo Oliveira,33,Brasilia,Database Administrator,12100
+315,Felipe Vieira,39,Campinas,Analytics Engineer,13700
+316,Caio Costa,33,Fortaleza,Data Analyst,7700
+317,Carlos Santos,51,Brasilia,Analytics Engineer,8300
+318,Joao Cardoso,39,Rio de Janeiro,Data Analyst,7900
+319,Elaine Pereira,30,Campinas,Data Scientist,10800
+320,Elaine Martins,22,Campinas,Data Engineer,12500
+321,Isabela Martins,36,Campinas,Data Scientist,12700
+322,Natalia Almeida,41,Rio de Janeiro,BI Analyst,6800
+323,Helena Alves,39,Recife,Data Analyst,10500
+324,Elaine Rodrigues,21,Rio de Janeiro,Data Engineer,10700
+325,Mateus Carvalho,56,Fortaleza,Analytics Engineer,12400
+326,Gabriel Vieira,39,Curitiba,Data Architect,13500
+327,Carlos Fernandes,47,Fortaleza,Cloud Engineer,8800
+328,Gabriel Oliveira,59,Salvador,Data Engineer,15500
+329,Isabela Rocha,36,Belo Horizonte,Data Architect,17400
+330,Ana Rodrigues,43,Curitiba,Database Administrator,11800
+331,Lucas Silva,26,Salvador,BI Analyst,5800
+332,Joao Ribeiro,53,Salvador,Analytics Engineer,7200
+333,Aline Oliveira,23,Campinas,BI Analyst,8200
+334,Bruno Martins,25,Brasilia,Software Engineer,16300
+335,Fernanda Vieira,58,Brasilia,Data Analyst,5000
+336,Vanessa Ribeiro,42,Belo Horizonte,Cloud Engineer,16900
+337,Giovana Santos,32,Belo Horizonte,Data Scientist,17100
+338,Felipe Alves,39,Curitiba,Data Engineer,17600
+339,Mariana Alves,41,Porto Alegre,Analytics Engineer,12000
+340,Larissa Oliveira,37,Sao Paulo,Software Engineer,10600
+341,Vanessa Vieira,24,Brasilia,Data Architect,13500
+342,Vinicius Moreira,46,Recife,ML Engineer,13300
+343,Lucas Oliveira,52,Brasilia,Analytics Engineer,10400
+344,Eduarda Teixeira,48,Rio de Janeiro,ML Engineer,16700
+345,Lucas Ribeiro,39,Brasilia,Data Scientist,9000
+346,Sabrina Silva,39,Porto Alegre,Cloud Engineer,15700
+347,Diego Costa,49,Brasilia,Cloud Engineer,8500
+348,Vanessa Rodrigues,48,Porto Alegre,Data Engineer,8400
+349,Beatriz Martins,53,Belo Horizonte,Data Engineer,9300
+350,Priscila Silva,49,Sao Paulo,Data Analyst,5300
+351,Otavio Vieira,44,Brasilia,ML Engineer,16200
+352,Camila Rodrigues,30,Recife,BI Analyst,9700
+353,Elaine Vieira,25,Fortaleza,Data Analyst,9100
+354,Beatriz Lima,38,Curitiba,Data Scientist,8300
+355,Lucas Oliveira,54,Campinas,Analytics Engineer,8500
+356,Patricia Vieira,37,Recife,Software Engineer,14800
+357,Renata Souza,52,Curitiba,Data Scientist,9700
+358,Daniel Nascimento,32,Recife,Data Scientist,18300
+359,Sabrina Silva,43,Rio de Janeiro,Analytics Engineer,13900
+360,Renata Gomes,31,Belo Horizonte,BI Analyst,11500
+361,Natalia Cardoso,33,Belo Horizonte,Software Engineer,13300
+362,Bruno Martins,56,Fortaleza,BI Analyst,10900
+363,Marcelo Carvalho,60,Rio de Janeiro,Data Scientist,11900
+364,Beatriz Souza,51,Salvador,ML Engineer,18800
+365,Caio Rocha,25,Belo Horizonte,BI Analyst,5900
+366,Elaine Nascimento,54,Brasilia,Data Analyst,6800
+367,Helena Moreira,53,Sao Paulo,Data Scientist,14600
+368,Igor Gomes,31,Belo Horizonte,BI Analyst,7800
+369,Vanessa Pereira,39,Rio de Janeiro,Data Architect,14500
+370,Marcelo Ferreira,29,Porto Alegre,Database Administrator,13300
+371,Eduarda Pereira,31,Fortaleza,Database Administrator,8400
+372,Juliana Silva,60,Fortaleza,BI Analyst,5500
+373,Bruno Barbosa,23,Fortaleza,Data Architect,20300
+374,Mateus Vieira,57,Campinas,Database Administrator,14600
+375,Bruno Oliveira,55,Porto Alegre,Data Architect,18100
+376,Otavio Silva,46,Porto Alegre,Cloud Engineer,8900
+377,Carlos Costa,49,Campinas,Cloud Engineer,13900
+378,Mateus Lima,59,Belo Horizonte,BI Analyst,9000
+379,Vanessa Mendes,29,Brasilia,Analytics Engineer,14100
+380,Fernanda Lima,36,Recife,Data Scientist,11400
+381,Elaine Fernandes,30,Rio de Janeiro,Data Engineer,11200
+382,Aline Rodrigues,47,Curitiba,Data Analyst,8600
+383,Monica Teixeira,41,Curitiba,Data Analyst,10800
+384,Isabela Nascimento,52,Porto Alegre,Cloud Engineer,8200
+385,Eduarda Mendes,53,Recife,Software Engineer,9700
+386,Paulo Martins,24,Sao Paulo,Data Architect,18300
+387,Priscila Santos,51,Porto Alegre,Analytics Engineer,7100
+388,Fernanda Moreira,29,Porto Alegre,BI Analyst,10100
+389,Vinicius Alves,46,Sao Paulo,Database Administrator,13600
+390,Mariana Martins,56,Porto Alegre,Data Scientist,12900
+391,Isabela Nascimento,56,Porto Alegre,Database Administrator,14300
+392,Gabriel Carvalho,27,Campinas,BI Analyst,9300
+393,Marcelo Martins,30,Curitiba,Database Administrator,13000
+394,Beatriz Pereira,23,Sao Paulo,Data Engineer,9200
+395,Thiago Oliveira,54,Recife,Data Analyst,11000
+396,Helena Lima,60,Brasilia,Data Analyst,9500
+397,Ricardo Teixeira,40,Fortaleza,BI Analyst,11400
+398,Isabela Ribeiro,52,Fortaleza,Data Architect,18000
+399,Bruno Martins,42,Rio de Janeiro,ML Engineer,16400
+400,Rodrigo Teixeira,22,Fortaleza,Cloud Engineer,11300
+401,Paulo Rocha,35,Sao Paulo,Database Administrator,12600
+402,Juliana Pereira,60,Campinas,Data Analyst,7600
+403,Camila Rocha,28,Curitiba,Data Engineer,13100
+404,Sabrina Moreira,30,Campinas,Software Engineer,12200
+405,Isabela Vieira,60,Recife,Data Engineer,16500
+406,Helena Pereira,34,Salvador,BI Analyst,11100
+407,Joao Mendes,41,Belo Horizonte,Cloud Engineer,14800
+408,Thiago Ribeiro,43,Porto Alegre,Database Administrator,12600
+409,Mariana Fernandes,38,Salvador,Data Architect,14800
+410,Rodrigo Vieira,39,Curitiba,Cloud Engineer,12000
+411,Giovana Martins,56,Porto Alegre,Data Architect,13500
+412,Monica Silva,55,Campinas,ML Engineer,19400
+413,Vanessa Vieira,30,Porto Alegre,Data Engineer,11100
+414,Eduarda Martins,49,Porto Alegre,Cloud Engineer,10700
+415,Mariana Ribeiro,38,Salvador,Data Architect,13700
+416,Fernanda Rodrigues,58,Curitiba,Software Engineer,7600
+417,Joao Fernandes,35,Sao Paulo,Data Scientist,13200
+418,Thiago Souza,51,Rio de Janeiro,Data Analyst,4500
+419,Marcelo Costa,47,Recife,Cloud Engineer,16300
+420,Mariana Vieira,39,Brasilia,Data Architect,20200
+421,Carlos Vieira,26,Fortaleza,Software Engineer,13800
+422,Camila Costa,47,Belo Horizonte,Data Engineer,12500
+423,Henrique Costa,39,Sao Paulo,Data Engineer,11300
+424,Monica Rodrigues,27,Brasilia,Data Architect,17800
+425,Larissa Pereira,52,Belo Horizonte,Analytics Engineer,12900
+426,Rafael Dias,28,Brasilia,Data Analyst,10300
+427,Patricia Souza,32,Sao Paulo,BI Analyst,8700
+428,Monica Silva,33,Belo Horizonte,Database Administrator,14600
+429,Beatriz Moreira,53,Brasilia,Data Scientist,13100
+430,Fernanda Costa,29,Recife,BI Analyst,8100
+431,Ana Ferreira,45,Curitiba,Cloud Engineer,17600
+432,Rafael Lima,40,Fortaleza,Database Administrator,6600
+433,Patricia Santos,44,Curitiba,Data Engineer,16000
+434,Gabriel Nascimento,40,Belo Horizonte,ML Engineer,17700
+435,Isabela Souza,40,Rio de Janeiro,Data Architect,16700
+436,Ricardo Fernandes,35,Belo Horizonte,Cloud Engineer,9900
+437,Felipe Teixeira,59,Brasilia,ML Engineer,17900
+438,Marcelo Oliveira,55,Curitiba,Software Engineer,15700
+439,Priscila Barbosa,54,Recife,Analytics Engineer,16000
+440,Vinicius Barbosa,57,Rio de Janeiro,Data Engineer,14500
+441,Isabela Dias,57,Salvador,Data Analyst,6600
+442,Sabrina Pereira,49,Rio de Janeiro,Software Engineer,16100
+443,Paulo Oliveira,26,Salvador,Cloud Engineer,8700
+444,Felipe Carvalho,53,Campinas,Cloud Engineer,15200
+445,Carlos Ribeiro,50,Porto Alegre,Data Engineer,12500
+446,Patricia Almeida,34,Fortaleza,Data Scientist,8500
+447,Diego Martins,25,Salvador,Data Engineer,8300
+448,Giovana Alves,39,Campinas,Data Analyst,6200
+449,Caio Martins,45,Recife,ML Engineer,13800
+450,Eduarda Silva,55,Belo Horizonte,BI Analyst,6500
+451,Lucas Ribeiro,46,Salvador,Data Analyst,7300
+452,Ana Vieira,22,Porto Alegre,Cloud Engineer,16600
+453,Larissa Moreira,55,Campinas,Software Engineer,10100
+454,Felipe Martins,30,Porto Alegre,Software Engineer,16200
+455,Gabriel Alves,47,Fortaleza,Data Engineer,10500
+456,Mateus Barbosa,27,Fortaleza,Data Engineer,13200
+457,Priscila Silva,24,Curitiba,Data Engineer,12600
+458,Elaine Fernandes,55,Curitiba,Data Engineer,9200
+459,Isabela Gomes,35,Fortaleza,BI Analyst,9100
+460,Otavio Gomes,30,Salvador,Software Engineer,12200
+461,Rodrigo Ferreira,24,Salvador,Database Administrator,8700
+462,Diego Ribeiro,52,Sao Paulo,BI Analyst,9800
+463,Joao Lima,47,Campinas,Data Analyst,8300
+464,Aline Costa,55,Recife,Software Engineer,9800
+465,Rodrigo Souza,30,Recife,Data Engineer,14600
+466,Caio Moreira,56,Salvador,Data Analyst,9400
+467,Otavio Ferreira,34,Brasilia,Data Scientist,13700
+468,Vinicius Barbosa,55,Curitiba,Data Engineer,10900
+469,Aline Silva,59,Fortaleza,Data Engineer,8400
+470,Mariana Vieira,58,Salvador,Software Engineer,13100
+471,Mateus Lima,40,Sao Paulo,Software Engineer,9400
+472,Gabriel Teixeira,51,Curitiba,Database Administrator,9100
+473,Beatriz Fernandes,56,Brasilia,Data Architect,16800
+474,Felipe Ribeiro,43,Porto Alegre,Data Architect,16600
+475,Isabela Oliveira,50,Rio de Janeiro,Cloud Engineer,17700
+476,Sabrina Dias,44,Brasilia,ML Engineer,9500
+477,Monica Fernandes,30,Sao Paulo,Data Architect,19000
+478,Paulo Rocha,47,Porto Alegre,Data Analyst,7000
+479,Thiago Fernandes,45,Fortaleza,Software Engineer,13300
+480,Marcelo Santos,42,Porto Alegre,Cloud Engineer,17200
+481,Henrique Nascimento,31,Brasilia,Data Analyst,6200
+482,Larissa Oliveira,32,Salvador,Data Engineer,14200
+483,Camila Barbosa,24,Sao Paulo,ML Engineer,10700
+484,Natalia Barbosa,30,Sao Paulo,Software Engineer,13400
+485,Felipe Martins,24,Fortaleza,Database Administrator,12600
+486,Henrique Almeida,21,Salvador,Analytics Engineer,12200
+487,Ana Almeida,54,Porto Alegre,Analytics Engineer,10600
+488,Bruno Pereira,48,Belo Horizonte,Data Scientist,9200
+489,Joao Carvalho,36,Curitiba,Database Administrator,13200
+490,Patricia Martins,38,Campinas,Data Scientist,12700
+491,Beatriz Nascimento,57,Curitiba,Software Engineer,10800
+492,Eduarda Santos,23,Rio de Janeiro,ML Engineer,13800
+493,Aline Ribeiro,51,Sao Paulo,Data Engineer,16400
+494,Juliana Barbosa,52,Campinas,BI Analyst,6200
+495,Joao Alves,35,Curitiba,Database Administrator,12500
+496,Rafael Alves,25,Porto Alegre,Analytics Engineer,14200
+497,Camila Costa,41,Sao Paulo,Software Engineer,14500
+498,Igor Vieira,46,Rio de Janeiro,Data Architect,14000
+499,Monica Fernandes,57,Campinas,Analytics Engineer,11200
+500,Aline Vieira,29,Rio de Janeiro,Analytics Engineer,11400
+501,Carlos Cardoso,48,Curitiba,Data Scientist,12300
+502,Priscila Vieira,60,Fortaleza,ML Engineer,18900
+503,Sabrina Almeida,38,Recife,Cloud Engineer,10900
+504,Vanessa Ribeiro,45,Campinas,Data Analyst,9300
+505,Eduarda Vieira,60,Porto Alegre,Software Engineer,16100
+506,Daniel Barbosa,38,Belo Horizonte,ML Engineer,18100
+507,Igor Teixeira,45,Brasilia,BI Analyst,6300
+508,Eduarda Almeida,40,Recife,BI Analyst,8400
+509,Fernanda Carvalho,26,Belo Horizonte,ML Engineer,14700
+510,Marcelo Ribeiro,53,Campinas,Data Scientist,8300
+511,Eduarda Martins,56,Rio de Janeiro,Database Administrator,14100
+512,Sabrina Mendes,21,Porto Alegre,ML Engineer,13900
+513,Eduarda Teixeira,56,Curitiba,Database Administrator,13100
+514,Juliana Silva,45,Belo Horizonte,Data Analyst,7900
+515,Rodrigo Ferreira,52,Belo Horizonte,Data Scientist,10100
+516,Diego Ferreira,47,Porto Alegre,Cloud Engineer,18000
+517,Daniel Martins,37,Curitiba,Cloud Engineer,15600
+518,Ricardo Dias,50,Rio de Janeiro,Data Analyst,8300
+519,Ana Mendes,42,Fortaleza,ML Engineer,19200
+520,Thiago Nascimento,42,Campinas,Database Administrator,8200
+521,Rodrigo Lima,59,Curitiba,Cloud Engineer,12000
+522,Lucas Mendes,41,Porto Alegre,Cloud Engineer,15300
+523,Otavio Lima,45,Porto Alegre,ML Engineer,13600
+524,Gabriel Rocha,33,Fortaleza,Analytics Engineer,9300
+525,Marcelo Almeida,50,Curitiba,Cloud Engineer,11700
+526,Daniel Moreira,52,Belo Horizonte,Data Architect,15000
+527,Patricia Silva,30,Campinas,ML Engineer,9900
+528,Elaine Rodrigues,51,Fortaleza,ML Engineer,15800
+529,Isabela Souza,47,Salvador,Data Engineer,17600
+530,Vinicius Souza,55,Fortaleza,Data Scientist,9300
+531,Otavio Silva,43,Belo Horizonte,Database Administrator,7000
+532,Monica Santos,46,Brasilia,ML Engineer,10300
+533,Ana Cardoso,37,Curitiba,Analytics Engineer,13600
+534,Marcelo Rocha,57,Curitiba,Cloud Engineer,12700
+535,Beatriz Nascimento,58,Salvador,Data Analyst,8900
+536,Bruno Oliveira,27,Porto Alegre,ML Engineer,10000
+537,Gabriel Teixeira,30,Brasilia,Data Architect,16300
+538,Felipe Dias,54,Recife,BI Analyst,11000
+539,Fernanda Nascimento,49,Brasilia,Data Scientist,11800
+540,Camila Souza,28,Sao Paulo,BI Analyst,6300
+541,Juliana Teixeira,36,Salvador,Data Analyst,6500
+542,Thiago Ribeiro,48,Recife,Software Engineer,12100
+543,Lucas Costa,48,Campinas,Data Engineer,16900
+544,Ricardo Dias,49,Fortaleza,ML Engineer,13900
+545,Ana Souza,34,Curitiba,Data Architect,21600
+546,Daniel Rocha,27,Salvador,Data Analyst,9100
+547,Sabrina Dias,50,Rio de Janeiro,Data Architect,20500
+548,Henrique Pereira,41,Fortaleza,ML Engineer,16800
+549,Beatriz Rocha,28,Brasilia,BI Analyst,10800
+550,Ricardo Costa,40,Fortaleza,Database Administrator,7500
+551,Helena Lima,28,Curitiba,Data Architect,13400
+552,Lucas Martins,30,Salvador,ML Engineer,14300
+553,Priscila Carvalho,57,Campinas,ML Engineer,11300
+554,Henrique Santos,55,Belo Horizonte,Analytics Engineer,9100
+555,Henrique Gomes,29,Belo Horizonte,BI Analyst,10700
+556,Ricardo Alves,43,Sao Paulo,Cloud Engineer,9700
+557,Mariana Mendes,56,Salvador,Cloud Engineer,13200
+558,Henrique Moreira,49,Recife,Data Analyst,5500
+559,Monica Almeida,35,Porto Alegre,Data Engineer,11000
+560,Natalia Ribeiro,39,Belo Horizonte,Cloud Engineer,15200
+561,Henrique Ribeiro,53,Rio de Janeiro,Database Administrator,7900
+562,Rafael Vieira,55,Brasilia,Analytics Engineer,7500
+563,Elaine Ribeiro,34,Campinas,Data Scientist,17400
+564,Otavio Gomes,23,Recife,Data Architect,16400
+565,Eduarda Nascimento,28,Curitiba,Software Engineer,16400
+566,Paulo Souza,43,Fortaleza,ML Engineer,11100
+567,Ricardo Carvalho,34,Curitiba,Data Engineer,14700
+568,Vanessa Ribeiro,38,Fortaleza,Analytics Engineer,9100
+569,Sabrina Souza,39,Porto Alegre,Database Administrator,9900
+570,Isabela Silva,27,Belo Horizonte,ML Engineer,9700
+571,Rafael Santos,29,Belo Horizonte,Software Engineer,8800
+572,Sabrina Fernandes,46,Recife,Data Analyst,7900
+573,Caio Mendes,49,Rio de Janeiro,Data Scientist,13100
+574,Isabela Teixeira,38,Brasilia,Cloud Engineer,14200
+575,Sabrina Rocha,21,Rio de Janeiro,Cloud Engineer,16100
+576,Vanessa Barbosa,55,Campinas,Software Engineer,12400
+577,Mateus Oliveira,38,Brasilia,Data Architect,16300
+578,Marcelo Rocha,29,Fortaleza,Cloud Engineer,18000
+579,Thiago Silva,24,Sao Paulo,Data Scientist,16000
+580,Felipe Almeida,28,Belo Horizonte,Cloud Engineer,13800
+581,Ana Moreira,33,Belo Horizonte,Data Architect,14000
+582,Rafael Barbosa,44,Porto Alegre,Data Scientist,12700
+583,Juliana Alves,46,Porto Alegre,Software Engineer,12400
+584,Eduarda Souza,27,Sao Paulo,Software Engineer,13100
+585,Daniel Carvalho,58,Curitiba,Analytics Engineer,15700
+586,Elaine Almeida,21,Brasilia,Data Scientist,19000
+587,Diego Souza,29,Recife,Data Scientist,10900
+588,Aline Barbosa,27,Rio de Janeiro,BI Analyst,9700
+589,Rodrigo Carvalho,45,Belo Horizonte,Data Analyst,5300
+590,Joao Rocha,21,Fortaleza,Data Analyst,10100
+591,Vanessa Teixeira,34,Belo Horizonte,ML Engineer,16800
+592,Elaine Dias,26,Rio de Janeiro,Data Analyst,6000
+593,Paulo Teixeira,45,Brasilia,ML Engineer,13000
+594,Helena Fernandes,38,Rio de Janeiro,Software Engineer,14000
+595,Priscila Rodrigues,59,Porto Alegre,Data Engineer,15900
+596,Rodrigo Dias,54,Fortaleza,Analytics Engineer,9400
+597,Beatriz Gomes,24,Curitiba,Cloud Engineer,12900
+598,Gabriel Fernandes,52,Fortaleza,Data Scientist,14700
+599,Ana Martins,41,Belo Horizonte,ML Engineer,20000
+600,Monica Moreira,44,Salvador,Data Analyst,10500
+601,Daniel Almeida,58,Rio de Janeiro,Data Engineer,10800
+602,Mateus Alves,24,Campinas,Analytics Engineer,10600
+603,Isabela Vieira,47,Campinas,ML Engineer,10000
+604,Larissa Ribeiro,60,Belo Horizonte,Data Architect,13000
+605,Rodrigo Barbosa,53,Curitiba,Data Analyst,8600
+606,Beatriz Rocha,25,Porto Alegre,ML Engineer,18300
+607,Otavio Alves,36,Rio de Janeiro,ML Engineer,10400
+608,Felipe Rodrigues,59,Sao Paulo,Data Architect,20500
+609,Lucas Cardoso,21,Belo Horizonte,Data Engineer,9500
+610,Henrique Martins,54,Salvador,Data Architect,14100
+611,Vinicius Carvalho,38,Rio de Janeiro,Data Engineer,11700
+612,Diego Ferreira,54,Rio de Janeiro,Data Architect,21100
+613,Monica Santos,25,Recife,Cloud Engineer,14500
+614,Vinicius Alves,52,Fortaleza,Data Analyst,9200
+615,Juliana Ferreira,27,Fortaleza,Data Scientist,10900
+616,Isabela Almeida,23,Sao Paulo,Software Engineer,7500
+617,Giovana Martins,45,Belo Horizonte,Data Analyst,4900
+618,Marcelo Souza,47,Curitiba,BI Analyst,8100
+619,Caio Teixeira,41,Porto Alegre,Data Scientist,15300
+620,Vinicius Cardoso,53,Sao Paulo,Data Analyst,7300
+621,Joao Alves,46,Rio de Janeiro,Cloud Engineer,11600
+622,Rodrigo Lima,26,Salvador,Cloud Engineer,8100
+623,Vinicius Dias,39,Fortaleza,Data Architect,21400
+624,Ricardo Fernandes,50,Brasilia,Database Administrator,12800
+625,Mariana Teixeira,55,Curitiba,Data Analyst,4500
+626,Caio Almeida,35,Salvador,BI Analyst,5100
+627,Thiago Almeida,45,Porto Alegre,Data Scientist,10600
+628,Joao Fernandes,47,Recife,Data Engineer,9300
+629,Rafael Barbosa,23,Curitiba,Analytics Engineer,12200
+630,Vinicius Nascimento,26,Fortaleza,Data Scientist,14400
+631,Helena Santos,46,Rio de Janeiro,Database Administrator,13700
+632,Carlos Moreira,29,Curitiba,Data Architect,15300
+633,Sabrina Mendes,41,Brasilia,Cloud Engineer,11400
+634,Natalia Barbosa,33,Belo Horizonte,Database Administrator,7800
+635,Igor Cardoso,31,Recife,Cloud Engineer,12000
+636,Caio Cardoso,55,Brasilia,Software Engineer,12700
+637,Rodrigo Nascimento,37,Rio de Janeiro,Data Scientist,10000
+638,Rodrigo Souza,59,Sao Paulo,Software Engineer,11100
+639,Igor Barbosa,36,Brasilia,ML Engineer,15500
+640,Carlos Silva,40,Porto Alegre,Data Analyst,4800
+641,Beatriz Nascimento,56,Salvador,Software Engineer,8200
+642,Felipe Cardoso,29,Rio de Janeiro,Data Engineer,8200
+643,Natalia Carvalho,33,Campinas,BI Analyst,6000
+644,Paulo Rocha,37,Rio de Janeiro,Data Engineer,8300
+645,Mariana Santos,49,Belo Horizonte,Data Scientist,18800
+646,Thiago Cardoso,23,Recife,Data Engineer,9600
+647,Monica Moreira,46,Recife,Data Engineer,12300
+648,Diego Costa,43,Curitiba,Data Analyst,8000
+649,Rafael Nascimento,30,Sao Paulo,Database Administrator,14400
+650,Ricardo Fernandes,39,Recife,ML Engineer,16000
+651,Giovana Alves,26,Porto Alegre,ML Engineer,10700
+652,Caio Dias,54,Curitiba,Analytics Engineer,7200
+653,Aline Souza,43,Recife,Analytics Engineer,13200
+654,Vanessa Rocha,53,Brasilia,ML Engineer,12400
+655,Lucas Almeida,41,Fortaleza,Software Engineer,7300
+656,Rafael Alves,51,Salvador,BI Analyst,7900
+657,Juliana Cardoso,36,Curitiba,Data Architect,18800
+658,Carlos Vieira,35,Fortaleza,ML Engineer,13500
+659,Lucas Costa,36,Fortaleza,BI Analyst,9500
+660,Paulo Almeida,43,Fortaleza,Database Administrator,8300
+661,Monica Dias,52,Salvador,Data Architect,14200
+662,Henrique Alves,26,Sao Paulo,Software Engineer,14700
+663,Natalia Almeida,54,Recife,Data Engineer,11700
+664,Ricardo Dias,29,Brasilia,Data Analyst,8600
+665,Carlos Almeida,30,Fortaleza,Data Analyst,5900
+666,Joao Martins,25,Brasilia,ML Engineer,16500
+667,Fernanda Lima,40,Brasilia,Data Analyst,6500
+668,Diego Santos,52,Brasilia,Data Analyst,9000
+669,Natalia Silva,58,Belo Horizonte,ML Engineer,12900
+670,Renata Carvalho,32,Sao Paulo,Database Administrator,11500
+671,Monica Alves,32,Fortaleza,BI Analyst,7800
+672,Monica Cardoso,52,Belo Horizonte,BI Analyst,5900
+673,Otavio Martins,41,Belo Horizonte,Data Scientist,18500
+674,Thiago Nascimento,21,Porto Alegre,Software Engineer,10100
+675,Daniel Martins,37,Rio de Janeiro,Data Engineer,8100
+676,Aline Nascimento,47,Belo Horizonte,ML Engineer,15300
+677,Aline Martins,55,Campinas,Data Scientist,18600
+678,Giovana Rocha,35,Belo Horizonte,Cloud Engineer,8900
+679,Camila Gomes,22,Brasilia,Data Architect,13300
+680,Daniel Lima,31,Campinas,Data Analyst,5400
+681,Marcelo Barbosa,42,Fortaleza,Database Administrator,12600
+682,Bruno Moreira,31,Fortaleza,ML Engineer,11000
+683,Carlos Cardoso,42,Curitiba,Software Engineer,12200
+684,Marcelo Teixeira,55,Porto Alegre,Data Architect,15800
+685,Otavio Cardoso,24,Campinas,Database Administrator,13500
+686,Henrique Carvalho,24,Brasilia,Data Engineer,12900
+687,Eduarda Gomes,59,Recife,Software Engineer,8200
+688,Bruno Dias,31,Porto Alegre,Data Scientist,14000
+689,Gabriel Gomes,46,Recife,Cloud Engineer,16400
+690,Patricia Barbosa,55,Campinas,Data Analyst,9200
+691,Aline Martins,32,Recife,Data Engineer,10800
+692,Elaine Nascimento,37,Curitiba,Data Architect,19200
+693,Carlos Carvalho,27,Rio de Janeiro,BI Analyst,11900
+694,Caio Vieira,58,Curitiba,Analytics Engineer,7700
+695,Aline Pereira,47,Salvador,Cloud Engineer,15300
+696,Otavio Oliveira,40,Rio de Janeiro,ML Engineer,19900
+697,Camila Pereira,57,Salvador,Database Administrator,14400
+698,Igor Cardoso,49,Belo Horizonte,Data Analyst,7200
+699,Mariana Carvalho,23,Campinas,Data Scientist,16700
+700,Diego Dias,30,Fortaleza,Data Architect,16000
+701,Daniel Barbosa,45,Salvador,ML Engineer,16000
+702,Sabrina Ferreira,54,Recife,Data Engineer,17500
+703,Ricardo Rocha,54,Campinas,Data Scientist,13300
+704,Igor Carvalho,57,Fortaleza,Database Administrator,7700
+705,Fernanda Rocha,27,Porto Alegre,Analytics Engineer,11400
+706,Caio Ferreira,45,Recife,Database Administrator,14200
+707,Giovana Alves,32,Porto Alegre,ML Engineer,10800
+708,Ricardo Rodrigues,46,Sao Paulo,ML Engineer,13200
+709,Otavio Alves,51,Porto Alegre,BI Analyst,5200
+710,Thiago Gomes,40,Porto Alegre,Cloud Engineer,16900
+711,Fernanda Fernandes,29,Porto Alegre,Cloud Engineer,17900
+712,Sabrina Ferreira,47,Fortaleza,Data Scientist,10400
+713,Elaine Dias,47,Recife,Analytics Engineer,11700
+714,Carlos Pereira,31,Rio de Janeiro,Data Architect,21000
+715,Isabela Mendes,29,Salvador,Database Administrator,6800
+716,Lucas Dias,33,Sao Paulo,Software Engineer,7400
+717,Felipe Alves,44,Curitiba,Data Architect,16700
+718,Felipe Pereira,46,Rio de Janeiro,Data Engineer,10500
+719,Vinicius Oliveira,59,Recife,Data Analyst,10500
+720,Paulo Ribeiro,43,Brasilia,Data Analyst,7800
+721,Eduarda Gomes,22,Campinas,Data Engineer,9500
+722,Monica Vieira,34,Curitiba,Software Engineer,15600
+723,Mateus Ferreira,47,Salvador,Data Engineer,17400
+724,Ana Oliveira,29,Belo Horizonte,Database Administrator,6600
+725,Natalia Ferreira,59,Porto Alegre,Data Architect,17400
+726,Aline Martins,50,Porto Alegre,Software Engineer,12900
+727,Rodrigo Silva,54,Fortaleza,ML Engineer,16400
+728,Fernanda Almeida,53,Brasilia,Analytics Engineer,15200
+729,Priscila Rodrigues,39,Porto Alegre,Data Scientist,14100
+730,Daniel Lima,38,Brasilia,Data Architect,15300
+731,Rodrigo Dias,30,Salvador,Software Engineer,7700
+732,Priscila Mendes,41,Belo Horizonte,Data Engineer,15800
+733,Henrique Gomes,37,Campinas,ML Engineer,13900
+734,Camila Rocha,57,Curitiba,BI Analyst,7800
+735,Larissa Santos,51,Brasilia,Analytics Engineer,10800
+736,Juliana Silva,56,Belo Horizonte,Data Architect,13200
+737,Giovana Carvalho,37,Salvador,Data Analyst,8700
+738,Eduarda Fernandes,43,Curitiba,Data Architect,17300
+739,Thiago Martins,37,Fortaleza,Data Architect,17900
+740,Gabriel Oliveira,24,Fortaleza,Database Administrator,14400
+741,Daniel Oliveira,33,Salvador,Data Scientist,16700
+742,Aline Pereira,40,Campinas,Data Engineer,9400
+743,Helena Dias,42,Campinas,Database Administrator,12300
+744,Igor Lima,32,Rio de Janeiro,Cloud Engineer,12200
+745,Lucas Lima,24,Sao Paulo,Cloud Engineer,11500
+746,Mateus Vieira,31,Fortaleza,Data Analyst,10700
+747,Eduarda Carvalho,60,Campinas,ML Engineer,14100
+748,Diego Oliveira,45,Sao Paulo,Data Engineer,14300
+749,Mariana Teixeira,44,Sao Paulo,BI Analyst,11700
+750,Mariana Almeida,21,Curitiba,Software Engineer,15800
+751,Vanessa Gomes,29,Rio de Janeiro,ML Engineer,15400
+752,Paulo Gomes,31,Rio de Janeiro,Data Engineer,11300
+753,Renata Nascimento,54,Fortaleza,Analytics Engineer,11300
+754,Diego Silva,29,Brasilia,Cloud Engineer,12500
+755,Mariana Costa,46,Sao Paulo,Software Engineer,9800
+756,Helena Dias,22,Fortaleza,Analytics Engineer,9100
+757,Gabriel Martins,23,Campinas,Data Architect,21800
+758,Larissa Rodrigues,24,Fortaleza,Data Engineer,15900
+759,Fernanda Santos,22,Sao Paulo,Data Scientist,13300
+760,Elaine Mendes,28,Salvador,Data Architect,18000
+761,Igor Dias,21,Porto Alegre,ML Engineer,17400
+762,Fernanda Silva,54,Porto Alegre,Database Administrator,14200
+763,Helena Moreira,27,Salvador,Database Administrator,8000
+764,Renata Cardoso,27,Recife,Software Engineer,14700
+765,Mariana Vieira,37,Salvador,Software Engineer,11500
+766,Caio Gomes,31,Sao Paulo,Analytics Engineer,13300
+767,Mateus Souza,51,Brasilia,Software Engineer,7000
+768,Ana Silva,26,Rio de Janeiro,Database Administrator,15000
+769,Henrique Carvalho,26,Salvador,Data Scientist,17200
+770,Fernanda Ferreira,35,Recife,Data Architect,15300
+771,Felipe Alves,27,Belo Horizonte,Data Engineer,11200
+772,Vinicius Silva,41,Campinas,Data Scientist,9200
+773,Camila Almeida,29,Belo Horizonte,BI Analyst,9500
+774,Elaine Rodrigues,38,Rio de Janeiro,BI Analyst,9300
+775,Lucas Cardoso,46,Campinas,Cloud Engineer,11400
+776,Aline Souza,51,Campinas,Data Analyst,5900
+777,Helena Souza,24,Belo Horizonte,Data Scientist,13300
+778,Paulo Oliveira,57,Recife,Data Analyst,9300
+779,Vanessa Rodrigues,22,Belo Horizonte,Cloud Engineer,14200
+780,Gabriel Moreira,49,Sao Paulo,Data Scientist,11300
+781,Sabrina Almeida,54,Fortaleza,Database Administrator,9300
+782,Thiago Pereira,54,Fortaleza,Data Scientist,13500
+783,Otavio Oliveira,43,Campinas,Data Analyst,5100
+784,Ana Santos,31,Salvador,Cloud Engineer,14300
+785,Juliana Barbosa,52,Brasilia,Software Engineer,11200
+786,Rafael Alves,53,Curitiba,Analytics Engineer,15200
+787,Aline Mendes,36,Rio de Janeiro,Cloud Engineer,13600
+788,Monica Nascimento,26,Recife,Cloud Engineer,12000
+789,Gabriel Oliveira,22,Rio de Janeiro,ML Engineer,14200
+790,Camila Ribeiro,56,Sao Paulo,Data Scientist,18100
+791,Priscila Rodrigues,40,Salvador,Analytics Engineer,9600
+792,Felipe Lima,44,Sao Paulo,Software Engineer,12800
+793,Thiago Ribeiro,60,Fortaleza,Cloud Engineer,17100
+794,Vinicius Souza,49,Rio de Janeiro,Data Scientist,17700
+795,Natalia Almeida,42,Brasilia,Data Architect,19000
+796,Joao Martins,27,Sao Paulo,Data Analyst,10800
+797,Helena Souza,47,Rio de Janeiro,Data Architect,19800
+798,Mariana Dias,28,Campinas,Software Engineer,12800
+799,Mariana Souza,42,Rio de Janeiro,ML Engineer,9500
+800,Paulo Cardoso,49,Recife,Database Administrator,12900
+801,Helena Oliveira,21,Salvador,Data Engineer,14500
+802,Diego Rocha,51,Salvador,Data Analyst,6700
+803,Helena Cardoso,45,Fortaleza,Database Administrator,10600
+804,Isabela Mendes,47,Fortaleza,Software Engineer,10500
+805,Beatriz Lima,39,Recife,Data Analyst,6200
+806,Caio Rodrigues,53,Porto Alegre,Analytics Engineer,11000
+807,Marcelo Santos,34,Curitiba,Software Engineer,14900
+808,Renata Silva,43,Belo Horizonte,Data Analyst,10900
+809,Larissa Souza,41,Rio de Janeiro,BI Analyst,11100
+810,Paulo Rocha,47,Salvador,Data Architect,23200
+811,Diego Almeida,54,Rio de Janeiro,Data Engineer,12300
+812,Igor Alves,24,Curitiba,Data Architect,21600
+813,Juliana Gomes,37,Belo Horizonte,Data Engineer,16300
+814,Renata Dias,55,Sao Paulo,BI Analyst,10700
+815,Fernanda Rodrigues,56,Curitiba,Analytics Engineer,11900
+816,Otavio Pereira,39,Sao Paulo,ML Engineer,13900
+817,Caio Silva,41,Salvador,Data Engineer,7600
+818,Patricia Dias,60,Recife,Software Engineer,15100
+819,Vinicius Vieira,58,Salvador,Database Administrator,9000
+820,Mariana Gomes,49,Belo Horizonte,Data Scientist,10300
+821,Lucas Teixeira,53,Rio de Janeiro,ML Engineer,9500
+822,Diego Ferreira,56,Porto Alegre,Data Analyst,6500
+823,Paulo Ferreira,21,Brasilia,Cloud Engineer,17000
+824,Igor Alves,30,Brasilia,Database Administrator,7100
+825,Ricardo Silva,40,Recife,Database Administrator,13500
+826,Vanessa Barbosa,41,Salvador,Software Engineer,9300
+827,Joao Barbosa,53,Belo Horizonte,ML Engineer,15900
+828,Larissa Mendes,26,Brasilia,Software Engineer,9700
+829,Thiago Lima,44,Porto Alegre,Software Engineer,16600
+830,Ricardo Pereira,51,Salvador,Data Engineer,8900
+831,Vanessa Nascimento,36,Fortaleza,Database Administrator,9600
+832,Camila Silva,41,Campinas,Data Scientist,12900
+833,Patricia Ribeiro,39,Sao Paulo,Analytics Engineer,11700
+834,Isabela Pereira,49,Recife,Data Engineer,11200
+835,Mariana Lima,53,Rio de Janeiro,Data Scientist,10100
+836,Larissa Ribeiro,21,Rio de Janeiro,Software Engineer,15500
+837,Mateus Silva,48,Rio de Janeiro,Software Engineer,13800
+838,Diego Santos,25,Belo Horizonte,Data Engineer,13300
+839,Thiago Alves,26,Rio de Janeiro,Data Engineer,9700
+840,Patricia Ribeiro,25,Fortaleza,Software Engineer,10300
+841,Caio Mendes,49,Campinas,ML Engineer,13000
+842,Bruno Mendes,28,Salvador,Data Engineer,15700
+843,Ricardo Barbosa,58,Sao Paulo,Data Scientist,12500
+844,Isabela Cardoso,39,Porto Alegre,Database Administrator,7600
+845,Renata Vieira,49,Campinas,ML Engineer,19500
+846,Bruno Oliveira,31,Salvador,Software Engineer,8700
+847,Beatriz Ribeiro,39,Belo Horizonte,Data Architect,20600
+848,Vinicius Almeida,56,Salvador,Data Analyst,6000
+849,Camila Almeida,57,Fortaleza,ML Engineer,15800
+850,Marcelo Barbosa,40,Curitiba,BI Analyst,7700
+851,Caio Santos,53,Belo Horizonte,Data Analyst,6800
+852,Natalia Rodrigues,37,Curitiba,Data Scientist,10300
+853,Monica Alves,56,Recife,Analytics Engineer,7900
+854,Renata Silva,25,Porto Alegre,Data Scientist,10500
+855,Paulo Oliveira,42,Brasilia,Data Analyst,7500
+856,Fernanda Gomes,60,Rio de Janeiro,Software Engineer,11000
+857,Henrique Nascimento,42,Fortaleza,Data Architect,20800
+858,Paulo Carvalho,57,Fortaleza,BI Analyst,9000
+859,Diego Costa,21,Brasilia,Software Engineer,17000
+860,Natalia Souza,48,Porto Alegre,BI Analyst,6700
+861,Thiago Oliveira,50,Recife,BI Analyst,8900
+862,Henrique Ribeiro,27,Belo Horizonte,Database Administrator,7500
+863,Rafael Carvalho,55,Curitiba,Data Architect,21300
+864,Daniel Teixeira,25,Sao Paulo,Analytics Engineer,15000
+865,Bruno Rocha,58,Campinas,Database Administrator,9200
+866,Camila Ribeiro,37,Salvador,Analytics Engineer,13000
+867,Igor Martins,46,Curitiba,Database Administrator,10200
+868,Helena Nascimento,53,Salvador,Data Scientist,13000
+869,Vinicius Pereira,21,Curitiba,Database Administrator,8600
+870,Isabela Carvalho,49,Belo Horizonte,Data Analyst,6300
+871,Giovana Martins,23,Curitiba,Cloud Engineer,10900
+872,Daniel Ferreira,44,Curitiba,Data Engineer,16000
+873,Mateus Pereira,44,Campinas,Cloud Engineer,13800
+874,Camila Alves,41,Rio de Janeiro,Analytics Engineer,15100
+875,Rafael Teixeira,37,Fortaleza,Analytics Engineer,14200
+876,Lucas Mendes,45,Brasilia,Database Administrator,14800
+877,Daniel Pereira,37,Campinas,Software Engineer,13600
+878,Beatriz Martins,43,Recife,Cloud Engineer,15700
+879,Ana Pereira,29,Recife,Data Analyst,7400
+880,Daniel Pereira,38,Curitiba,Data Analyst,6800
+881,Juliana Martins,59,Rio de Janeiro,Software Engineer,12300
+882,Thiago Teixeira,28,Recife,Cloud Engineer,14100
+883,Mateus Rocha,31,Campinas,Data Engineer,10600
+884,Camila Carvalho,57,Fortaleza,Data Analyst,6200
+885,Isabela Alves,57,Belo Horizonte,Data Engineer,9600
+886,Patricia Costa,54,Campinas,Database Administrator,13700
+887,Bruno Teixeira,39,Rio de Janeiro,Software Engineer,12700
+888,Priscila Oliveira,51,Belo Horizonte,Software Engineer,12200
+889,Priscila Carvalho,58,Belo Horizonte,Database Administrator,14900
+890,Isabela Ferreira,31,Brasilia,Cloud Engineer,15600
+891,Paulo Barbosa,35,Campinas,ML Engineer,10600
+892,Fernanda Almeida,33,Salvador,Analytics Engineer,15700
+893,Caio Carvalho,59,Rio de Janeiro,Data Analyst,10500
+894,Ricardo Rodrigues,23,Salvador,Analytics Engineer,8500
+895,Eduarda Oliveira,29,Fortaleza,Analytics Engineer,7000
+896,Diego Pereira,47,Brasilia,Data Engineer,16400
+897,Joao Moreira,35,Recife,ML Engineer,13400
+898,Paulo Teixeira,57,Rio de Janeiro,ML Engineer,10700
+899,Patricia Oliveira,35,Rio de Janeiro,Data Architect,19600
+900,Larissa Moreira,37,Curitiba,Data Engineer,16500
+901,Ana Rocha,54,Rio de Janeiro,Analytics Engineer,7000
+902,Aline Santos,34,Brasilia,ML Engineer,13600
+903,Fernanda Carvalho,48,Fortaleza,Data Architect,15300
+904,Larissa Moreira,57,Brasilia,Database Administrator,10000
+905,Beatriz Vieira,34,Campinas,Analytics Engineer,14100
+906,Giovana Costa,44,Salvador,Analytics Engineer,13100
+907,Patricia Gomes,57,Brasilia,ML Engineer,18400
+908,Helena Silva,28,Curitiba,Cloud Engineer,18000
+909,Juliana Cardoso,34,Salvador,ML Engineer,19000
+910,Thiago Ribeiro,60,Sao Paulo,Data Analyst,9400
+911,Ana Barbosa,30,Recife,Database Administrator,12000
+912,Eduarda Barbosa,37,Curitiba,BI Analyst,6000
+913,Priscila Alves,45,Campinas,Database Administrator,14800
+914,Joao Gomes,59,Sao Paulo,Data Analyst,10800
+915,Elaine Almeida,33,Salvador,Data Architect,14400
+916,Camila Rodrigues,53,Salvador,Software Engineer,14800
+917,Juliana Silva,23,Brasilia,Software Engineer,15300
+918,Ana Costa,26,Porto Alegre,ML Engineer,13500
+919,Beatriz Mendes,58,Curitiba,Analytics Engineer,7100
+920,Daniel Barbosa,56,Porto Alegre,Analytics Engineer,14400
+921,Vanessa Martins,38,Curitiba,Database Administrator,8900
+922,Felipe Mendes,57,Sao Paulo,Data Architect,14200
+923,Caio Pereira,27,Salvador,Data Scientist,14400
+924,Renata Lima,28,Salvador,Data Architect,23200
+925,Larissa Rocha,37,Recife,ML Engineer,16200
+926,Giovana Vieira,36,Brasilia,Cloud Engineer,16700
+927,Felipe Rocha,22,Recife,Data Scientist,11300
+928,Daniel Mendes,35,Curitiba,BI Analyst,10200
+929,Vanessa Pereira,55,Sao Paulo,Data Architect,15100
+930,Renata Barbosa,46,Brasilia,Data Scientist,15000
+931,Lucas Oliveira,41,Brasilia,Software Engineer,14300
+932,Rafael Costa,33,Recife,Software Engineer,10000
+933,Otavio Ferreira,34,Curitiba,Software Engineer,10100
+934,Ricardo Martins,30,Rio de Janeiro,Data Scientist,9000
+935,Henrique Rodrigues,21,Salvador,Data Engineer,13600
+936,Vinicius Rodrigues,41,Recife,Database Administrator,10000
+937,Henrique Costa,53,Porto Alegre,ML Engineer,11800
+938,Monica Carvalho,24,Salvador,ML Engineer,15100
+939,Larissa Alves,53,Brasilia,ML Engineer,20000
+940,Lucas Nascimento,28,Salvador,Cloud Engineer,12000
+941,Ana Almeida,34,Campinas,Database Administrator,7700
+942,Sabrina Martins,60,Porto Alegre,Data Analyst,7800
+943,Otavio Ferreira,51,Fortaleza,BI Analyst,9600
+944,Lucas Oliveira,48,Curitiba,ML Engineer,17900
+945,Vinicius Martins,46,Porto Alegre,Cloud Engineer,10300
+946,Monica Carvalho,57,Curitiba,Data Scientist,17200
+947,Rafael Fernandes,56,Campinas,ML Engineer,11500
+948,Igor Teixeira,30,Recife,Data Engineer,9700
+949,Caio Oliveira,29,Salvador,Analytics Engineer,11000
+950,Henrique Gomes,37,Salvador,Database Administrator,7100
+951,Beatriz Cardoso,31,Sao Paulo,Software Engineer,10200
+952,Giovana Santos,27,Recife,BI Analyst,8300
+953,Vinicius Martins,56,Salvador,Data Architect,16400
+954,Bruno Moreira,28,Brasilia,Database Administrator,9000
+955,Monica Rocha,55,Belo Horizonte,Data Architect,16500
+956,Sabrina Silva,53,Recife,Cloud Engineer,9000
+957,Aline Rodrigues,39,Recife,Data Analyst,6600
+958,Thiago Moreira,60,Fortaleza,ML Engineer,19800
+959,Daniel Barbosa,31,Brasilia,Software Engineer,11000
+960,Sabrina Santos,39,Porto Alegre,Database Administrator,14700
+961,Beatriz Ferreira,49,Brasilia,Database Administrator,13100
+962,Elaine Moreira,31,Belo Horizonte,Data Engineer,9100
+963,Otavio Silva,37,Rio de Janeiro,Software Engineer,9100
+964,Beatriz Cardoso,27,Rio de Janeiro,Cloud Engineer,15000
+965,Carlos Almeida,46,Salvador,Data Scientist,9300
+966,Patricia Rodrigues,30,Rio de Janeiro,ML Engineer,12900
+967,Natalia Fernandes,39,Recife,Data Analyst,6100
+968,Joao Costa,22,Sao Paulo,BI Analyst,9100
+969,Giovana Nascimento,55,Porto Alegre,Analytics Engineer,12600
+970,Helena Souza,55,Belo Horizonte,Database Administrator,14100
+971,Felipe Santos,57,Campinas,Analytics Engineer,15100
+972,Larissa Gomes,43,Recife,Analytics Engineer,9900
+973,Eduarda Nascimento,40,Brasilia,ML Engineer,12300
+974,Igor Gomes,21,Sao Paulo,Analytics Engineer,8700
+975,Vanessa Gomes,51,Salvador,Data Engineer,16300
+976,Henrique Vieira,51,Porto Alegre,Data Engineer,17300
+977,Diego Gomes,59,Curitiba,Data Engineer,14500
+978,Vinicius Dias,47,Salvador,ML Engineer,14000
+979,Otavio Costa,45,Campinas,Software Engineer,10300
+980,Eduarda Moreira,36,Salvador,Database Administrator,9900
+981,Renata Santos,55,Porto Alegre,ML Engineer,11400
+982,Daniel Costa,29,Porto Alegre,Data Scientist,16100
+983,Felipe Rodrigues,49,Porto Alegre,Database Administrator,12700
+984,Mariana Lima,22,Belo Horizonte,Data Engineer,14300
+985,Bruno Costa,27,Porto Alegre,Data Architect,13600
+986,Elaine Teixeira,21,Curitiba,Data Scientist,9900
+987,Ana Oliveira,34,Brasilia,ML Engineer,12900
+988,Henrique Martins,50,Sao Paulo,BI Analyst,6000
+989,Igor Alves,38,Campinas,Data Scientist,14900
+990,Giovana Costa,33,Porto Alegre,ML Engineer,19600
+991,Ana Cardoso,36,Campinas,Cloud Engineer,11100
+992,Camila Dias,50,Rio de Janeiro,Analytics Engineer,15500
+993,Mateus Oliveira,45,Porto Alegre,BI Analyst,7000
+994,Camila Teixeira,56,Salvador,Data Scientist,11200
+995,Giovana Santos,40,Curitiba,BI Analyst,5600
+996,Mateus Cardoso,36,Campinas,BI Analyst,5100
+997,Juliana Ferreira,58,Rio de Janeiro,ML Engineer,19100
+998,Otavio Almeida,23,Fortaleza,Cloud Engineer,16800
+999,Priscila Carvalho,44,Rio de Janeiro,Software Engineer,9000
+1000,Henrique Barbosa,60,Brasilia,Data Engineer,8200
