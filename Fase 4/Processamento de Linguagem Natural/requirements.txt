@@ -1,0 +1,15 @@
+bertopic
+gensim
+joblib
+matplotlib
+nltk
+numpy
+pandas
+pyLDAvis
+scikit-learn
+scipy
+seaborn
+sentence-transformers
+seqeval
+spacy
+transformers
