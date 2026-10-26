@@ -1,0 +1,30 @@
+[project]
+name = "ai-scientists"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # --- Linha LangChain 1.x ---
+    "langchain>=1.4,<2.0",
+    "langchain-core>=1.6,<2.0",
+    "langchain-text-splitters>=1.0,<2.0",
+    "langchain-openai>=1.6,<2.0",
+    "langchain-google-genai>=4.4,<5.0",
+    "langchain-anthropic>=1.7,<2.0",
+    "langchain-chroma>=1.1,<2.0",
+    "langgraph>=1.2,<2.0",
+    "langgraph-checkpoint-sqlite>=3.1,<4.0",
+    # Ainda necessário: o FAISS da aula 2 mora aqui. O pacote está em processo
+    # de descontinuação — quando sair uma integração standalone, migrar.
+    "langchain-community>=0.4.2,<0.5",
+    "faiss-cpu>=1.9",
+    # --- Sem relação com a linha do LangChain ---
+    "google-genai>=2.8.0",
+    "huggingface-hub>=1.16.1",
+    "onnxruntime<1.20.0",   # pin do chromadb: testar se ainda é necessário
+    "python-dotenv>=1.2.2",
+    "fastapi>=0.141.1",
+    "uvicorn>=0.49.0",
+    "pydantic>=2.13.4",
+]

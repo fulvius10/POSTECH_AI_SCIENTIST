@@ -1,0 +1,120 @@
+### API Financeira Agêntica — aula 4 / vídeo 03
+#
+# Requer a extensão "REST Client" (humao.rest-client) no VS Code.
+# Suba o servidor antes:  uvicorn main:app --reload
+# Depois clique em "Send Request" acima de cada bloco.
+#
+# Troque os valores abaixo pelos do seu .env.
+
+@base = http://127.0.0.1:8000
+@analista = 123
+@diretoria = 1234
+
+@chave-inexistente = 
+
+### 1. Servidor no ar
+GET {{base}}/health
+
+
+### 2. Sem credencial — espera 401
+POST {{base}}/analise-financeira
+Content-Type: application/json
+
+{
+  "pergunta": "Quanto vendemos em Janeiro de 2026?"
+}
+
+
+### 3. Credencial errada — espera 401
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: chave-que-nao-existe
+
+{
+  "pergunta": "Quanto vendemos em Janeiro de 2026?"
+}
+
+
+### 4. Caminho feliz — analista consulta a própria filial
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "Quanto vendemos na filial São Paulo em Janeiro de 2026?"
+}
+
+
+### 5. AUTORIZAÇÃO — analista tenta uma filial que não é dele.
+# Volta 200: a requisição é legítima, quem negou foi a ferramenta.
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "E quanto vendemos na filial Recife em Janeiro de 2026?"
+}
+
+
+### 6. Mesma pergunta do 5, com a chave da diretoria — agora vem o valor
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{diretoria}}
+
+{
+  "pergunta": "E quanto vendemos na filial Recife em Janeiro de 2026?"
+}
+
+
+### 7. Entrada inválida — espera 422 do Pydantic
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "a"
+}
+
+
+### 8. Fora do escopo da ferramenta — o agente deve admitir que não sabe
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "Qual a projeção de vendas para 2030?"
+}
+
+
+### 9. NORMALIZAÇÃO — typo no mês.
+# O LLM vê o enum no schema, entende "Dezembro" e chama certo. Não é erro:
+# é o comportamento desejado. Ligue DEBUG_ERROS=1 para ver os argumentos.
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "Quanto vendemos em Dezembrembro de 2026?"
+}
+
+
+### 10. FAIXA — ano fora do ge=2020 / le=2030 do schema
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "Quanto vendemos na filial São Paulo em Janeiro de 2019?"
+}
+
+
+### 11. ENUM — filial que não existe em lugar nenhum do sistema.
+# Diferente do teste 5: lá a filial existe mas o usuário não tem acesso.
+# Aqui ela nem está no Literal, então o Pydantic barra antes da autorização.
+POST {{base}}/analise-financeira
+Content-Type: application/json
+x-api-key: {{analista}}
+
+{
+  "pergunta": "Quanto vendemos na filial de Manaus em Janeiro de 2026?"
+}
