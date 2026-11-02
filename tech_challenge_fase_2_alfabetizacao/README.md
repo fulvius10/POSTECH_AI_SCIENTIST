@@ -6,8 +6,12 @@ confiável. A solução executa batch e streaming simulado no Google Cloud, com
 camadas Bronze, Silver e Gold, validações bloqueantes, métricas persistidas e
 alertas de falha. O ambiente acadêmico funciona com faturamento desativado.
 
-**Apresentação:** [PowerPoint com roteiro nas notas do apresentador](presentation/tech_challenge_alfabetizacao_fase_2.pptx).
-**Vídeo executivo:** gravação ainda não publicada.
+**Apresentação:** [PowerPoint](presentation/tech_challenge_alfabetizacao_fase_2.pptx).
+
+**Vídeo executivo:** [Apresentação do projeto — 3 min 51 s (MP4)](https://github.com/fulvius10/POSTECH_AI_SCIENTIST/raw/refs/heads/main/tech_challenge_fase_2_alfabetizacao/presentation/Apresentacao%20Video%20Fase%202.mp4).
+
+**Repositório de entrega:** [fork do curso](https://github.com/fulvius10/POSTECH_AI_SCIENTIST/tree/main/tech_challenge_fase_2_alfabetizacao).
+**Repositório de desenvolvimento:** [histórico de trabalho](https://github.com/fulvius10/POSTECH_AI_SCIENTIST-main/tree/main/tech_challenge_fase_2_alfabetizacao).
 
 ## 1. Contexto e definição do problema
 
@@ -349,14 +353,15 @@ Os backups preservam a Gold para a fase 3.
 
 ## Apresentação executiva
 
-O [PowerPoint](presentation/tech_challenge_alfabetizacao_fase_2.pptx) apresenta o
-problema, a investigação, os resultados, a arquitetura, a qualidade, o streaming,
-os alertas, os custos e a reprodução. O roteiro está nas **notas de cada slide**,
-visível no Modo do Apresentador. A leitura foi dimensionada para aproximadamente
-quatro a cinco minutos, com o integrante apresentando o projeto.
+O [vídeo executivo](https://github.com/fulvius10/POSTECH_AI_SCIENTIST/raw/refs/heads/main/tech_challenge_fase_2_alfabetizacao/presentation/Apresentacao%20Video%20Fase%202.mp4)
+tem duração de 3 minutos e 51 segundos e apresenta o problema educacional, as
+fontes, a arquitetura e os resultados. A apresentação também aborda qualidade,
+streaming, alertas, custos e reprodutibilidade. Os números apresentados correspondem
+às evidências do projeto. A seção de aplicação em IA documenta o potencial da Gold
+para análises e modelos futuros, incluindo os cuidados com vazamento de alvo.
 
-O roteiro e os números usam as evidências do repositório. A publicação da gravação
-do vídeo executivo ainda não foi informada.
+O [PowerPoint](presentation/tech_challenge_alfabetizacao_fase_2.pptx) e o
+[arquivo MP4](presentation/Apresentacao%20Video%20Fase%202.mp4) acompanham a entrega.
 
 ## Como reproduzir a solução
 
@@ -365,8 +370,8 @@ projeto próprio sem faturamento. A autenticação é externa ao clone e nenhuma
 credencial deve ser versionada. O código recebe o ID do projeto por argumento.
 
 ```bash
-git clone https://github.com/fulvius10/POSTECH_AI_SCIENTIST-main.git
-cd POSTECH_AI_SCIENTIST-main/tech_challenge_fase_2_alfabetizacao
+git clone https://github.com/fulvius10/POSTECH_AI_SCIENTIST.git
+cd POSTECH_AI_SCIENTIST/tech_challenge_fase_2_alfabetizacao
 ```
 
 ### Google Cloud Shell
@@ -453,7 +458,7 @@ sql/             Consultas da investigação
 referencias/     Originais e manifesto de fontes
 docs/            Decisões e investigação documentadas
 evidencias/      Resultados e métricas versionáveis das execuções
-presentation/    PowerPoint com notas do apresentador
+presentation/    Apresentação executiva em PowerPoint e vídeo MP4
 data/            Camadas, filas, auditorias e backups locais, fora do Git
 ```
 
